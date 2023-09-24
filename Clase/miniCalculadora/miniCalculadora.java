@@ -5,10 +5,10 @@ public class miniCalculadora {
 
         Scanner entrada = new Scanner(System.in);
         System.out.println("Dime el primer número");
-        Integer num1 = entrada.nextInt();
+        Double num1 = entrada.nextDouble();
         Scanner entrada2 = new Scanner(System.in);
         System.out.println("Dime el segundo número");
-        Integer num2 = entrada2.nextInt();
+        Double num2 = entrada2.nextDouble();
 
 
         System.out.println("La suma de " + num1 + " + "  + num2 + ". Es igual a " + (num1+num2));
