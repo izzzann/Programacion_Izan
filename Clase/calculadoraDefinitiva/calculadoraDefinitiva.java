@@ -4,7 +4,7 @@ import java.util.*;
 public class calculadoraDefinitiva {
     public static void main(String[] args) {
         Double num1 = Double.parseDouble(JOptionPane.showInputDialog(null, "Dime el primer número", "CALCULADORA", 3));
-        Double num2 = Double.parseDouble(JOptionPane.showInputDialog(null, "Dime el primer número", "CALCULADORA", 3));
+        Double num2 = Double.parseDouble(JOptionPane.showInputDialog(null, "Dime el segundo número", "CALCULADORA", 3));
 
         Scanner entrada = new Scanner(System.in);
         System.out.println("¿Qué operacion quieres hacer?");
@@ -25,6 +25,5 @@ public class calculadoraDefinitiva {
          if (operacion == 4){
                 System.out.println(num1 / num2);
             }
-        
     }
 }
