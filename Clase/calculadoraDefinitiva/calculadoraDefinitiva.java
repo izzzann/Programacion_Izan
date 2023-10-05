@@ -25,5 +25,7 @@ public class calculadoraDefinitiva {
          if (operacion == 4){
                 System.out.println(num1 / num2);
             }
+
+        entrada.close();
     }
 }
